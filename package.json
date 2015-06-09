@@ -1,0 +1,40 @@
+{
+  "name": "axsdialog",
+  "version": "0.0.1",
+  "description": "Accessible dialog written in Vanilla JS",
+  "keywords": [
+    "accessibility"
+  ],
+  "homepage": "https://github.com/karlgroves/axsdialog",
+  "bugs": "https://github.com/karlgroves/axsdialog/issues",
+  "author": {
+    "name": "Karl Groves",
+    "email": "karlgroves@gmail.com",
+    "url": "https://github.com/karlgroves"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karlgroves/axsdialog.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-git-describe": "~2.3.2",
+    "jshint-stylish": "~1.0.0",
+    "load-grunt-tasks": "~1.0.0",
+    "matchdep": "~0.3.0",
+    "time-grunt": "~1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

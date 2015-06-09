@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+.idea
+.idea/*
+.idea/workspace.xml
+atlassian-ide-plugin.xml
+.settings
+npm-debug.log
+test-results.xml
+coverage
