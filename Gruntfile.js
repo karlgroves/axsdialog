@@ -17,8 +17,7 @@ module.exports = function (grunt) {
         '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
         '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
         ' Licensed MIT */\n',
-
-
+        
         // Task configuration.
         clean: {
             files: ['dist']
@@ -78,13 +77,7 @@ module.exports = function (grunt) {
                 tasks: ['jshint:src']
             }
         }
-
     });
-
-
-    grunt.registerTask('test', [
-        'jshint'
-    ]);
 
     // Default task
     grunt.registerTask('default', ['jshint', 'clean', 'uglify', 'copy']);

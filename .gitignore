@@ -1,10 +1,42 @@
-.DS_Store
+npm-debug.log
+test-results.xml
+coverage
+
+
+# -*- mode: gitignore; -*-
 node_modules
+.DS_Store
+
+### PHP storm ###
 .idea
 .idea/*
 .idea/workspace.xml
 atlassian-ide-plugin.xml
 .settings
-npm-debug.log
-test-results.xml
-coverage
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+### Emacs ###
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+.project
+*.diff
+*.patch
+node_modules
+bower_components
+temp
+.tmp
+dist

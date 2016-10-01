@@ -22,6 +22,7 @@
     }
   ],
   "devDependencies": {
+    "chai": "^3.3.0",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.8.0",
@@ -29,9 +30,12 @@
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-git-describe": "~2.3.2",
+    "grunt-mocha": "^0.4.13",
     "jshint-stylish": "~1.0.0",
     "load-grunt-tasks": "~1.0.0",
     "matchdep": "~0.3.0",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
     "time-grunt": "~1.0.0"
   },
   "engines": {
