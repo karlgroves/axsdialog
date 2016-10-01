@@ -31,6 +31,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-git-describe": "~2.3.2",
     "grunt-mocha": "^0.4.13",
+    "grunt-travis-lint": "0.0.3",
     "jshint-stylish": "~1.0.0",
     "load-grunt-tasks": "~1.0.0",
     "matchdep": "~0.3.0",
